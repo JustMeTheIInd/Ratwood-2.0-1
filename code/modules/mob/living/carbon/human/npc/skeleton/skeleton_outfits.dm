@@ -440,3 +440,31 @@
 	H.adjust_skillrank(/datum/skill/combat/wrestling, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/swimming, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
+
+// Teuhill Map Skeletons.
+
+// Styled mostly around recruits/fighters of the Duchy. 
+
+/datum/outfit/job/roguetown/skeleton/npc/bone_recruit/pre_equip(mob/living/carbon/human/H) // Stronger, yet still basic skeletors.
+	..()
+	H.STASTR = 10
+	H.STASPD = 6
+	H.STACON = 6
+	H.STAWIL = 10
+	H.STAINT = 1
+	name = "Skeletal Recruit"
+	gloves = /obj/item/clothing/gloves/roguetown/leather
+	wrists = /obj/item/clothing/wrists/roguetown/bracers/leather
+	pants = /obj/item/clothing/under/roguetown/trou/leather
+	shoes = /obj/item/clothing/shoes/roguetown/boots/leather
+	if(prob(50))
+		head = /obj/item/clothing/head/roguetown/helmet/kettle/iron
+	cloak = /obj/item/clothing/cloak/stabard/stabard/guard
+	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/iron
+	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/light
+	if(prob(25))
+		r_hand = /obj/item/rogueweapon/sword/iron
+	else if(prob(25))
+		r_hand = /obj/item/rogueweapon/spear
+	else if(prob(25))
+		r_hand = /obj/item/rogueweapon/mace/cudgel

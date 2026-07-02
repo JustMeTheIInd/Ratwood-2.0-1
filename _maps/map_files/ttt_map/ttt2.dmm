@@ -33207,6 +33207,12 @@
 	icon_state = "tilegreyblu"
 	},
 /area/rogue)
+"oyt" = (
+/obj/structure/fluff/signage/crossroads{
+	dir = 1
+	},
+/turf/open/floor/rogue/grass,
+/area/rogue)
 "oyO" = (
 /obj/structure/fluff/railing/wood{
 	dir = 1;
@@ -262733,7 +262739,7 @@ hHl
 hHl
 hHl
 hHl
-hHl
+oyt
 txt
 txt
 txt

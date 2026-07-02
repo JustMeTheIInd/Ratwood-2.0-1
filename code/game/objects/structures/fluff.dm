@@ -815,6 +815,12 @@
 	else
 		. += "I can read this sign."
 
+/obj/structure/fluff/signage/crossroads
+	icon_state = "crossroadsign"
+	name = "sign"
+	desc = ""
+	icon = 'icons/roguetown/misc/tallstructure.dmi'
+
 /obj/structure/fluff/customsign
 	name = "sign"
 	desc = ""

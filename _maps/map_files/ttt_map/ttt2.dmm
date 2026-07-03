@@ -10214,8 +10214,10 @@
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "erM" = (
-/obj/structure/table/wood/poor,
-/turf/open/floor/rogue/metal/barograte,
+/obj/structure/glowshroom/dendorite{
+	desc = "Planted here with clear intent and purpose."
+	},
+/turf/open/water/river/flow/west,
 /area/rogue)
 "erY" = (
 /obj/structure/fluff/clock,
@@ -12458,15 +12460,16 @@
 /turf/open/transparent/openspace,
 /area/rogue)
 "fqH" = (
-/obj/structure/bars/cemetery{
-	icon_state = "cemeteryb";
-	density = 0
-	},
 /obj/structure/flora/newbranch/leafless{
 	dir = 8
 	},
 /obj/structure/vine{
 	color = "#759259"
+	},
+/obj/structure/bars/cemetery{
+	icon_state = "cemeteryb";
+	density = 0;
+	color = "#bb9696"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -14163,6 +14166,12 @@
 /obj/structure/closet/crate/drawer,
 /turf/open/floor/carpet/royalblack,
 /area/rogue)
+"gdf" = (
+/obj/structure/bars{
+	color = "#989898"
+	},
+/turf/open/water/sewer,
+/area/rogue)
 "gdk" = (
 /obj/structure/fluff/railing/border{
 	dir = 5
@@ -15526,15 +15535,16 @@
 /obj/structure/vine{
 	color = "#759259"
 	},
-/obj/structure/bars/cemetery{
-	icon_state = "cemeteryb";
-	density = 0
-	},
 /obj/structure/fluff/walldeco/vinez{
 	density = 1;
 	name = "dense foliage";
 	max_integrity = 300;
 	opacity = 1
+	},
+/obj/structure/bars/cemetery{
+	icon_state = "cemeteryb";
+	density = 0;
+	color = "#bb9696"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -15985,7 +15995,8 @@
 "gUl" = (
 /obj/structure/fluff/walldeco/sanitarium{
 	pixel_y = 32;
-	color = "C0C0C0"
+	color = "C0C0C0";
+	desc = "An olden, dirty white banner with a big blue cross painted on it, notifying the passersby of the presence of a more secular place of health. How are you feeling?"
 	},
 /obj/effect/decal/cobbleedge{
 	dir = 1;
@@ -16002,6 +16013,12 @@
 	dir = 9
 	},
 /turf/open/floor/rogue/tile/masonic,
+/area/rogue)
+"gUD" = (
+/obj/structure/fluff/psycross/psycrucifix{
+	pixel_y = 27
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "gUF" = (
 /turf/open/floor/rogue/wood/nosmooth,
@@ -16788,8 +16805,8 @@
 	},
 /obj/structure/fluff/customsign{
 	icon = 'icons/roguetown/misc/signs.dmi';
-	icon_state = "signwrote";
-	pixel_y = 9
+	icon_state = "signlife";
+	desc = "NORTH: TO THE VILLAGE OF PILGRIM'S FIELD."
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -17800,7 +17817,9 @@
 /area/rogue)
 "hIP" = (
 /obj/structure/fluff/statue/aasimar{
-	pixel_y = 16
+	pixel_y = 16;
+	desc = null;
+	name = "Statue of St. Kavalynn"
 	},
 /obj/machinery/light/rogue/candle/floorcandle/alt{
 	pixel_y = -17
@@ -20507,6 +20526,14 @@
 	pixel_y = 2
 	},
 /turf/open/floor/rogue/churchbrick,
+/area/rogue)
+"iRw" = (
+/obj/structure/mineral_door/bars,
+/obj/structure/spider/stickyweb,
+/obj/structure/curtain/directional/black{
+	dir = 8
+	},
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "iRz" = (
 /obj/effect/decal/cobbleedge{
@@ -24823,6 +24850,12 @@
 /obj/structure/roguerock,
 /turf/open/water/river/flow/north,
 /area/rogue)
+"kNo" = (
+/obj/structure/mineral_door/wood/red{
+	desc = "Are you sure this is a good idea?"
+	},
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "kNs" = (
 /obj/item/roguebin/water{
 	pixel_y = 19;
@@ -27929,7 +27962,8 @@
 "mel" = (
 /obj/structure/fluff/walldeco/sanitarium{
 	pixel_y = 32;
-	color = "C0C0C0"
+	color = "C0C0C0";
+	desc = "An olden, dirty white banner with a big blue cross painted on it, notifying the passersby of the presence of a more secular place of health. How are you feeling?"
 	},
 /turf/open/floor/rogue/grass,
 /area/rogue)
@@ -31855,7 +31889,8 @@
 "nLE" = (
 /obj/structure/bars/cemetery{
 	icon_state = "cemeteryb";
-	density = 0
+	density = 0;
+	color = "#bb9696"
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -37307,14 +37342,15 @@
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "qln" = (
-/obj/structure/fluff/walldeco/sanitarium{
-	pixel_y = 32;
-	color = "C0C0C0"
-	},
 /obj/effect/decal/cobbleedge{
 	dir = 1;
 	icon_state = "borderfall";
 	pixel_y = 9
+	},
+/obj/structure/fluff/walldeco/sanitarium{
+	pixel_y = 32;
+	color = "C0C0C0";
+	desc = "An olden, dirty white banner with a big blue cross painted on it, notifying the passersby of the presence of a more secular place of health. How are you feeling?"
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue)
@@ -38060,6 +38096,11 @@
 /obj/item/natural/feather,
 /obj/structure/fluff/walldeco/painting/seraphina{
 	pixel_x = -32
+	},
+/obj/item/roguekey/butcher{
+	name = "Church office key";
+	desc = "Ensures privacy.";
+	lockid = "church_office"
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue)
@@ -39018,6 +39059,20 @@
 	},
 /obj/structure/table/wood/poker,
 /turf/open/floor/carpet/stellar,
+/area/rogue)
+"rcf" = (
+/obj/structure/rack/rogue/shelf/notdense{
+	pixel_y = 30
+	},
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_x = 6;
+	pixel_y = 37
+	},
+/obj/item/reagent_containers/glass/cup/wooden{
+	pixel_x = -7;
+	pixel_y = 37
+	},
+/turf/open/floor/rogue/tile/bfloorz,
 /area/rogue)
 "rcp" = (
 /obj/structure/closet/crate/roguecloset/dark,
@@ -44733,11 +44788,12 @@
 /turf/open/floor/rogue/concrete,
 /area/rogue)
 "tCA" = (
+/obj/structure/glowshroom/dendorite,
 /obj/structure/bars/cemetery{
 	icon_state = "cemeteryb";
-	density = 0
+	density = 0;
+	color = "#bb9696"
 	},
-/obj/structure/glowshroom/dendorite,
 /turf/open/floor/rogue/dirt,
 /area/rogue)
 "tCB" = (
@@ -46629,6 +46685,11 @@
 /obj/item/reagent_containers/glass/bottle/alchemical/healthpotnew,
 /obj/item/roguekey/church,
 /obj/item/storage/keyring/priest,
+/obj/item/roguekey/butcher{
+	name = "Church office key";
+	desc = "Ensures privacy.";
+	lockid = "church_office"
+	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue)
 "uwm" = (
@@ -48127,7 +48188,11 @@
 /turf/open/floor/rogue/grass,
 /area/rogue)
 "uZQ" = (
-/obj/structure/bars/cemetery,
+/obj/structure/bars/cemetery{
+	color = "#bb9696";
+	name = "rusty bars";
+	desc = "Aeon consumes all, it seems."
+	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
 "uZS" = (
@@ -49745,6 +49810,10 @@
 	dir = 6
 	},
 /obj/machinery/light/rogue/candle/blue,
+/obj/machinery/gear_painter{
+	pixel_y = 19;
+	density = 0
+	},
 /turf/open/floor/rogue/ruinedwood/spiral,
 /area/rogue)
 "vMR" = (
@@ -50305,7 +50374,11 @@
 /turf/open/floor/rogue/concrete,
 /area/rogue)
 "vVR" = (
-/obj/structure/bars/cemetery,
+/obj/structure/bars/cemetery{
+	color = "#bb9696";
+	name = "rusty bars";
+	desc = "Aeon consumes all, it seems."
+	},
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
 "vVU" = (
@@ -51207,9 +51280,13 @@
 /turf/open/transparent/openspace,
 /area/rogue)
 "wpr" = (
-/obj/structure/bars/cemetery,
 /obj/structure/vine{
 	color = "#759259"
+	},
+/obj/structure/bars/cemetery{
+	color = "#bb9696";
+	name = "rusty bars";
+	desc = "Aeon consumes all, it seems."
 	},
 /turf/open/floor/rogue/dirt,
 /area/rogue)
@@ -54735,7 +54812,7 @@
 /turf/open/floor/rogue/blocks/platform,
 /area/rogue)
 "xTP" = (
-/obj/structure/bookcase/random/religion,
+/obj/machinery/gear_painter,
 /turf/open/floor/rogue/churchmarble,
 /area/rogue)
 "xTZ" = (
@@ -146531,7 +146608,7 @@ gIE
 gIE
 gIE
 txt
-stb
+gzK
 fgD
 fgD
 fgD
@@ -146933,11 +147010,11 @@ stb
 stb
 stb
 stb
-stb
+gzK
 fgD
 fgD
 fgD
-stb
+cIn
 stb
 stb
 stb
@@ -147324,7 +147401,7 @@ jdO
 jdO
 jdO
 jdO
-jdO
+cIn
 stb
 stb
 stb
@@ -147335,11 +147412,11 @@ stb
 stb
 stb
 stb
-stb
+gzK
 fgD
 fgD
 fgD
-stb
+cIn
 stb
 stb
 stb
@@ -147726,7 +147803,7 @@ jdO
 jdO
 jdO
 jdO
-jdO
+cIn
 stb
 stb
 stb
@@ -147737,11 +147814,11 @@ stb
 stb
 stb
 stb
-stb
+gzK
 fgD
 fgD
 fgD
-stb
+gzK
 stb
 stb
 stb
@@ -148128,7 +148205,7 @@ jdO
 jdO
 jdO
 jdO
-jdO
+cIn
 stb
 stb
 stb
@@ -148140,10 +148217,10 @@ stb
 stb
 stb
 cIn
-tqI
-tbe
-tqI
-cIn
+erM
+fgD
+erM
+gzK
 stb
 stb
 stb
@@ -148542,10 +148619,10 @@ stb
 stb
 stb
 cIn
-tbe
-tqI
-tbe
-cIn
+fgD
+erM
+erM
+gzK
 stb
 stb
 stb
@@ -148933,28 +149010,28 @@ jdO
 jdO
 jdO
 cIn
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
 cIn
 cIn
 cIn
 cIn
 cIn
-stb
-stb
-stb
-stb
-stb
-stb
-stb
+cIn
+cIn
+cIn
+cIn
+cIn
+cIn
+bZl
+gdf
+vmU
+gzK
+gzK
+cIn
+cIn
+cIn
+cIn
+cIn
+cIn
 cIn
 cIn
 cIn
@@ -149334,30 +149411,30 @@ eFp
 jdO
 jdO
 jdO
-cIn
-stb
-stb
-stb
-stb
-stb
-cIn
-bZl
-cIn
-bZl
-cIn
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-cIn
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+kMV
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
 jdO
 jdO
 jdO
@@ -149736,30 +149813,30 @@ eFp
 jdO
 jdO
 jdO
-cIn
-stb
-stb
-stb
-stb
-stb
-bZl
-aMy
-pkk
-oPy
-bZl
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-cIn
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+kMV
+kMV
+kMV
+kMV
+kMV
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
 jdO
 jdO
 jdO
@@ -150138,30 +150215,30 @@ eFp
 jdO
 jdO
 jdO
-cIn
-stb
-stb
-stb
-stb
-stb
-cIn
-erM
-pkk
-bgT
-cIn
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-cIn
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
+jdO
 jdO
 jdO
 jdO
@@ -150547,22 +150624,22 @@ cIn
 cIn
 cIn
 cIn
+cIn
+cIn
+cIn
+cIn
+cIn
+cIn
+cIn
 bZl
-dBl
+cIn
 bZl
 cIn
 cIn
 cIn
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
-stb
+cIn
+cIn
+cIn
 cIn
 jdO
 jdO
@@ -150953,13 +151030,13 @@ vpJ
 qnf
 oDv
 pXz
-pXz
+qnf
+dBl
+vLL
+oPy
+pkk
+aMy
 cIn
-stb
-stb
-stb
-stb
-stb
 stb
 stb
 stb
@@ -151358,10 +151435,10 @@ qnf
 pVp
 bZl
 cIn
-stb
-stb
-stb
-stb
+bgT
+pkk
+ezm
+bZl
 stb
 stb
 stb
@@ -151760,10 +151837,10 @@ qnf
 ryN
 bGW
 idg
-stb
-stb
-stb
-stb
+cIn
+cIn
+cIn
+cIn
 stb
 stb
 stb
@@ -152163,7 +152240,7 @@ pjL
 vmU
 vRt
 stb
-stb
+gKn
 stb
 stb
 stb
@@ -152557,7 +152634,7 @@ gLc
 cIn
 kEQ
 cIn
-rTR
+kNo
 cIn
 vmU
 gzK
@@ -154164,9 +154241,9 @@ stb
 stb
 khF
 hnH
-cIn
-nFT
-cIn
+bZl
+gdf
+vmU
 cIn
 stb
 stb
@@ -154566,9 +154643,9 @@ cIn
 cIn
 idg
 hkt
-gWf
-gWf
-gWf
+kMV
+kMV
+kMV
 cIn
 cIn
 cIn
@@ -171475,8 +171552,8 @@ lgd
 lgd
 lgd
 shS
-qoJ
-cIn
+exu
+bZl
 cIn
 cIn
 cIn
@@ -173513,7 +173590,7 @@ lmY
 pdf
 qyN
 pdf
-sdB
+iRw
 gMx
 bZl
 jUB
@@ -274760,7 +274837,7 @@ lFB
 vgN
 shS
 wIs
-mmd
+rcf
 mmd
 mmd
 mmd
@@ -275564,7 +275641,7 @@ lFB
 dhb
 shS
 wIs
-mmd
+rcf
 mmd
 mmd
 mmd
@@ -297007,7 +297084,7 @@ hHl
 hHl
 hHl
 hHl
-hHl
+gUD
 hHl
 hHl
 hHl
@@ -297811,8 +297888,8 @@ hHl
 hHl
 hHl
 hHl
-hHl
-hHl
+txt
+txt
 hHl
 hHl
 hHl
@@ -298214,8 +298291,8 @@ hHl
 hHl
 hHl
 hHl
-hHl
-hHl
+txt
+txt
 hHl
 hHl
 hHl
@@ -298615,12 +298692,12 @@ hHl
 hHl
 hHl
 hHl
+gUD
 hHl
-hHl
-hHl
-hHl
-hHl
-hHl
+txt
+txt
+txt
+txt
 hHl
 hHl
 txt
@@ -299022,8 +299099,8 @@ hHl
 hHl
 hHl
 hHl
-hHl
-hHl
+txt
+txt
 txt
 txt
 txt
@@ -299425,7 +299502,7 @@ hHl
 hHl
 hHl
 hHl
-hHl
+txt
 txt
 txt
 txt

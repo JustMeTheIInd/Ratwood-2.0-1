@@ -198,6 +198,20 @@
 	desc = "A frosted glass window, it obscures the view but focuses the mind on just what could be hiding behind it."
 	opacity = TRUE
 
+/obj/structure/roguewindow/sanitarium
+	name = "sanitarium window"
+	desc = "A reinforced, window with it's framing made out of metal. Meant to both keep you out, and keep you in."
+	icon_state = "sanitarium-blue"
+	base_state = "sanitarium-blue"
+	max_integrity = 600
+	repair_costs = list(/obj/item/natural/glass, /obj/item/natural/glass)
+
+/obj/structure/roguewindow/sanitarium/green
+	icon_state = "sanitarium-green"
+	base_state = "sanitarium-green"
+
+
+
 /obj/structure/roguewindow/openclose/Initialize(mapload)
 	lockdir = dir
 	icon_state = base_state

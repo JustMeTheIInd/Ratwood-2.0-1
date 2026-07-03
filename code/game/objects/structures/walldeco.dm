@@ -542,3 +542,8 @@
 	name = "bog guard banner"
 	desc = "A torn banner with a snake depicted on it, the proud standard of a local swamp militia. Its last members dead or deserted, it is now a relic of a dead hope."
 	icon_state = "bogbanner-snake-anim"
+
+/obj/structure/fluff/walldeco/sanitarium
+	name = "sanitarium sign"
+	desc = "An olden, dirty white banner with a big blue cross painted on it. How are you feeling?"
+	icon_state = "sanitarium"

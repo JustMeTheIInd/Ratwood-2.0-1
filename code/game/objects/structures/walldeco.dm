@@ -547,3 +547,45 @@
 	name = "sanitarium sign"
 	desc = "An olden, dirty white banner with a big blue cross painted on it. How are you feeling?"
 	icon_state = "sanitarium"
+
+/obj/structure/fluff/walldeco/psybanner/tennite
+	name = "ten undivided banner"
+	icon_state = "tenbanner_purple"
+	desc = "A banner depicting a circle over a cross; the symbolism of the Ten Undivided, the sphere of \
+	Tennite religious practice dedicated to the entirety of the pantheon without favour or preference. \
+	Particularly strongly associated with the Grenzelhoftian Holy See."
+
+/obj/structure/fluff/walldeco/psybanner/tennite/red
+	icon_state = "tenbanner_red"
+
+/obj/structure/fluff/walldeco/psybanner/astrata
+	name = "astratan banner"
+	icon_state = "astratabanner_purple"
+	desc = "The six-pronged cross of Astrata, embroidered upon fine fabric. It is Her will that \
+	suspends the heavens and the earth, and it is Her light that maintains life upon the abandoned \
+	surface of Psydonia. An image associated with the nobility of all lands, and with the \
+	highest echelons of church leadership."
+
+/obj/structure/fluff/walldeco/psybanner/astrata/red
+	icon_state = "astratabanner_red"
+
+/obj/structure/fluff/walldeco/psybanner/zizo
+	name = "zizite banner"
+	icon_state = "zizobanner_purple"
+	desc = "A carefully made banner bearing the inverted cross of Zizo, Dame of Progress. Banners such \
+	as this one are wildly dangerous to fly in any Tennite or Psydonite nation, in which the worship \
+	of the progenitor of undeath is harshly criminalised, but may be commonly found in more remote \
+	areas of the world."
+
+/obj/structure/fluff/walldeco/psybanner/zizo/red
+	icon_state = "zizobanner_red"
+
+/obj/structure/fluff/walldeco/psybanner/get_mechanics_examine(mob/user)
+	. = ..()
+	. += span_info("Faith is the most important aspect of lyfe, no matter if you're a peasant or a lord. Those with differing faiths oft-clash, both metaphorically and very literally.")
+	. += span_info("Your character can choose from a wide variety of patrons to worship. The three most relevant groups, as of todae, are the PANTHEON, the ASCENDANTS, and GENESISM.")
+	. += span_info("The PANTHEON, as the Church's official religion, is considered the 'status quo' within Ferentia. They worship ONE of TEN GODS, all embodying certain aspects and virtues of humenity.")
+	. += span_info("The ASCENDANTS are considered 'heathens' by the PANTHEON, and are actively hunted if made apparent within Ferentia. They worship ONE of FOUR MORTALS-TURNED-GODS, who seek to usurp the 'status quo'.")
+	. += span_info("At last, GENESISM is considered 'archaic' by both the PANTHEON and ASCENDANTS. They worship PSYDON; the SAVIOR of this world who's presence is all-but-gone. They are, for lack of a better term, a 'wild card'.")
+	. += span_info("Irregardless of the chosen patron, your character is free - within reason - to interpret and worship their GOD in whatever way they see fit. After all, who's to say they aren't the only one that knows the TRUTH?")
+

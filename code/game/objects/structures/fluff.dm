@@ -1354,6 +1354,28 @@
 	max_integrity = 450
 	chance2hear = 10
 
+obj/structure/fluff/psycross/astrata
+	name = "wooden astratan cross"
+	icon_state = "cross_astrata"
+	desc = "A simple cross of carved wood, raised in quiet devotion to Astrata."
+	max_integrity = 100
+	chance2hear = 20
+
+/obj/structure/fluff/psycross/astrata/stone
+	name = "stone astratan cross"
+	icon_state = "cross_astrata_r"
+	desc = "A towering monument to Astrata. Those who stand beneath it feel the warmth of her light."
+	max_integrity = 140
+	chance2hear = 20
+
+/obj/structure/fluff/psycross/astrata/golden
+	name = "golden astratan cross"
+	icon_state = "cross_astrata_g"
+	desc = "A radiant monument of gold, devoted to Astrata in her full glory. Its surface gleams with an almost blinding brilliance, catching even the faintest light and casting it forth as a warm, unwavering glow."
+	attacked_sound = list("sound/combat/hits/onmetal/metalimpact (1).ogg", "sound/combat/hits/onmetal/metalimpact (2).ogg")
+	max_integrity = 400
+	chance2hear = 20
+
 /obj/structure/fluff/psycross/zizocross
 	name = "inverted cross"
 	desc = "An unholy symbol. Blasphemy for most, reverence for few."

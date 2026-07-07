@@ -408,12 +408,31 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 /client
 	var/musicfading = 0
 
+/area/proc/has_detail_text()
+	if(detail_text)
+		return TRUE
+	if(islist(detail_texts))
+		for(var/text in detail_texts)
+			if(text)
+				return TRUE
+	return FALSE
+
+/area/proc/get_detail_text()
+	if(islist(detail_texts))
+		var/list/available = list()
+		for(var/text in detail_texts)
+			if(text)
+				available += text
+		if(length(available))
+			return pick(available)
+	return detail_text
+
 /mob/living/proc/intro_area(area/A)
 	if(!mind)
 		return
 	if(!client)
 		return
-	if(A.first_time_text && A.detail_text)
+	if(A.first_time_text && A.has_detail_text())
 		to_chat(client, span_info("You enter <a href='?src=[REF(A)];getdescription=1'>[A.name]</a>."))
 	else if (A.first_time_text) // Avoid trivial introduction
 		to_chat(client, span_info("You enter [A.name]."))
@@ -557,8 +576,9 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 /area/Topic(href, href_list)
 	..()
 	if(href_list["getdescription"])
-		if(detail_text)
-			to_chat(usr, span_info("[detail_text]"))
+		var/detail_message = get_detail_text()
+		if(detail_message)
+			to_chat(usr, span_info("[detail_message]"))
 
 /area/start
 	name = "start area"

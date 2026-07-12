@@ -441,7 +441,7 @@
 	H.adjust_skillrank(/datum/skill/misc/swimming, 3, TRUE)
 	H.adjust_skillrank(/datum/skill/misc/climbing, 3, TRUE)
 
-// Teuhill Map Skeletons.
+// Teuval Map Skeletons.
 
 // Styled mostly around recruits/fighters of the Duchy. 
 

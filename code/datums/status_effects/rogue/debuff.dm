@@ -1203,3 +1203,28 @@
 	name = "The Kiss"
 	desc = "A terrible sweetness floods my senses."
 	icon_state = "vampirebite"
+
+/datum/status_effect/debuff/grove_general
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/grove_general
+	effectedstats = list(STATKEY_CON = -1)
+
+/atom/movable/screen/alert/status_effect/debuff/grove_general
+	name = "Echo of the Grove"
+	desc = "You feel like WEEPING..."
+	icon_state = "sunder"
+
+/datum/status_effect/debuff/z_land_bad
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/z_land_bad
+	effectedstats = list(STATKEY_WIL = -1, STATKEY_CON = -1,)
+
+/atom/movable/screen/alert/status_effect/debuff/z_land_bad
+	name = "Scent of the Rot-land"
+	desc = "The putrid stink of the Rot-lands weaken your body..."
+
+/datum/status_effect/debuff/z_land_bad_extra
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/z_land_bad_extra
+	effectedstats = list(STATKEY_WIL = -1, STATKEY_CON = -1, STATKEY_STR = -1, STATKEY_FOR = -1)
+
+/atom/movable/screen/alert/status_effect/debuff/z_land_bad_extra
+	name = "Influence of the Dame"
+	desc = "HER Goading Laughter weakens YOUR lyving form..."

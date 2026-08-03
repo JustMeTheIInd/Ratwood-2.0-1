@@ -44,7 +44,7 @@ GLOBAL_LIST_INIT(mad_templar_aggro, world.file2list("strings/rt/madtemplaraggrol
 
 /mob/living/carbon/human/species/human/northern/mad_templar/after_creation()
 	..()
-	job = "Maddened Ravoxian"
+	job = "Maddened Templar"
 	ADD_TRAIT(src, TRAIT_NOMOOD, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_NOHUNGER, TRAIT_GENERIC)
 	ADD_TRAIT(src, TRAIT_LEECHIMMUNE, INNATE_TRAIT)
@@ -112,7 +112,7 @@ GLOBAL_LIST_INIT(mad_templar_aggro, world.file2list("strings/rt/madtemplaraggrol
 	pants = /obj/item/clothing/under/roguetown/chainlegs/iron
 	shoes = /obj/item/clothing/shoes/roguetown/boots/armor/iron
 	neck = /obj/item/clothing/neck/roguetown/chaincoif/iron
-		shirt = /obj/item/clothing/suit/roguetown/armor/gambeson
+	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson
 	if(prob(50))
 		head = /obj/item/clothing/head/roguetown/helmet/heavy/knight/iron
 	else if(prob(50))
@@ -193,24 +193,21 @@ GLOBAL_LIST_INIT(mad_templar_aggro, world.file2list("strings/rt/madtemplaraggrol
 	H.STAINT = 14 // I'm sure this stat line up is FINE...
 	gloves = /obj/item/clothing/gloves/roguetown/plate
 	wrists = /obj/item/clothing/wrists/roguetown/bracers
-	pants = /obj/item/clothing/under/roguetown/chainlegs
 	shoes = /obj/item/clothing/shoes/roguetown/boots/armor
 	neck = /obj/item/clothing/neck/roguetown/gorget/steel
-	if(prob(25))	
-		head = /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
-	else if(prob(25))
-		head = /obj/item/clothing/head/roguetown/helmet/heavy/bucket
-	else if(prob(25))
-		head = /obj/item/clothing/head/roguetown/helmet/heavy/knight
-	else if(prob(25))
-		head = /obj/item/clothing/head/roguetown/helmet/heavy/ravox_visor
+	head = /obj/item/clothing/head/roguetown/helmet/heavy/knight/armet
 	if(prob(25))
-		armor = /obj/item/clothing/suit/roguetown/armor/plate/half
-	else if(prob(25))
+		head = /obj/item/clothing/head/roguetown/helmet/heavy/bucket
+	if(prob(25))
+		head = /obj/item/clothing/head/roguetown/helmet/heavy/knight
+	if(prob(25))
+		head = /obj/item/clothing/head/roguetown/helmet/heavy/ravox_visor
+	armor = /obj/item/clothing/suit/roguetown/armor/plate/half
+	if(prob(25))
 		armor = /obj/item/clothing/suit/roguetown/armor/plate
-	else if(prob(25))
+	if(prob(25))
 		armor = /obj/item/clothing/suit/roguetown/armor/plate/fluted
-	else if(prob(10))
+	if(prob(10))
 		armor = /obj/item/clothing/suit/roguetown/armor/plate/full/fluted
 	pants = /obj/item/clothing/under/roguetown/platelegs
 	cloak = /obj/item/clothing/cloak/templar/ravox

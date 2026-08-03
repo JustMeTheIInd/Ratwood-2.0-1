@@ -549,17 +549,38 @@
 	icon_state = "sanitarium"
 
 /obj/structure/fluff/walldeco/psybanner/tennite
-	name = "ten undivided banner"
+	name = "Tennite Banner"
 	icon_state = "tenbanner_purple"
 	desc = "A banner depicting a circle over a cross; the symbolism of the Ten Undivided, the sphere of \
 	Tennite religious practice dedicated to the entirety of the pantheon without favour or preference. \
 	Particularly strongly associated with the Grenzelhoftian Holy See."
 
+/obj/structure/fluff/walldeco/psybanner/tennite/pestra
+	name = "Pestran Banner"
+	icon_state = "pestrabanner"
+	desc = "A banner blessed by with the sickly greens, proudly proclaiming its faith and trust in the patronage of the Goddess of Medicine."
+
+/obj/structure/fluff/walldeco/psybanner/tennite/eora
+	name = "Eoran Banner"
+	icon_state = "eorabanner"
+	desc = "A banner of radiant pinkish-red, like that of a living, beating heart. Symbol of love, care, and Eora."
+
+/obj/structure/fluff/walldeco/psybanner/tennite/noc
+	name = "Noccite Banner"
+	icon_state = "nocbanner"
+	desc = "A baner of gleaming, deep blue, color most often associated with Noc, and his many blessings towards knowledge and the arcyne."
+
+/obj/structure/fluff/walldeco/psybanner/tennite/necra
+	name = "Necran Banner"
+	icon_state = "necrabanner"
+	desc = "Banner grey like the ash of the Underworld. Necra awaits.."
+
 /obj/structure/fluff/walldeco/psybanner/tennite/red
+	name = "Red Tennite Banner"
 	icon_state = "tenbanner_red"
 
 /obj/structure/fluff/walldeco/psybanner/astrata
-	name = "astratan banner"
+	name = "Astratan Banner"
 	icon_state = "astratabanner_purple"
 	desc = "The six-pronged cross of Astrata, embroidered upon fine fabric. It is Her will that \
 	suspends the heavens and the earth, and it is Her light that maintains life upon the abandoned \
@@ -567,10 +588,16 @@
 	highest echelons of church leadership."
 
 /obj/structure/fluff/walldeco/psybanner/astrata/red
+	name = "Red Astratan Banner"
 	icon_state = "astratabanner_red"
 
+/obj/structure/fluff/walldeco/psybanner/astrata/yel
+	name = "Golden Astratan Banner"
+	icon_state = "astratabanner_yel"
+
+
 /obj/structure/fluff/walldeco/psybanner/zizo
-	name = "zizite banner"
+	name = "Zizite Banner"
 	icon_state = "zizobanner_purple"
 	desc = "A carefully made banner bearing the inverted cross of Zizo, Dame of Progress. Banners such \
 	as this one are wildly dangerous to fly in any Tennite or Psydonite nation, in which the worship \
@@ -578,6 +605,7 @@
 	areas of the world."
 
 /obj/structure/fluff/walldeco/psybanner/zizo/red
+	name = "Red Zizite Banner"
 	icon_state = "zizobanner_red"
 
 /obj/structure/fluff/walldeco/psybanner/get_mechanics_examine(mob/user)
@@ -588,4 +616,5 @@
 	. += span_info("The ASCENDANTS are considered 'heathens' by the PANTHEON, and are actively hunted if made apparent within Ferentia. They worship ONE of FOUR MORTALS-TURNED-GODS, who seek to usurp the 'status quo'.")
 	. += span_info("At last, GENESISM is considered 'archaic' by both the PANTHEON and ASCENDANTS. They worship PSYDON; the SAVIOR of this world who's presence is all-but-gone. They are, for lack of a better term, a 'wild card'.")
 	. += span_info("Irregardless of the chosen patron, your character is free - within reason - to interpret and worship their GOD in whatever way they see fit. After all, who's to say they aren't the only one that knows the TRUTH?")
+
 

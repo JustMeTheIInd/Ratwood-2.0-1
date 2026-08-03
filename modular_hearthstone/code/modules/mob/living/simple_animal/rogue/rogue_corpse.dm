@@ -63,6 +63,12 @@
 	neck = /obj/item/clothing/neck/roguetown/chaincoif/iron
 	mask = /obj/item/clothing/mask/rogue/skullmask
 
+/obj/effect/mob_spawn/human
+	mob_name = "Human"
+	mob_type = /mob/living/carbon/human/species/northern
+	mob_species = /datum/species/human/northern
+	brute_damage = 200
+
 
 
 

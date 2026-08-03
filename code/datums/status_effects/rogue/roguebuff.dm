@@ -2176,3 +2176,53 @@
 /atom/movable/screen/alert/status_effect/buff/oath_ring
 	name = "Oathmarked"
 	desc = "The oath drives me forward, so long as the reminder is kept near."
+
+/datum/status_effect/buff/grove_psy
+	id = "grove_psy"	
+	alert_type = /atom/movable/screen/alert/status_effect/buff/grove_psy
+	effectedstats = list(STATKEY_WIL = 1)
+
+/atom/movable/screen/alert/status_effect/buff/grove_psy
+	name = "Echo of the Grove"
+	desc = "You feel like ENDURING..."
+	icon_state = "psy_buff"
+
+/datum/status_effect/buff/grove_z
+	id = "grove_z"	
+	alert_type = /atom/movable/screen/alert/status_effect/buff/grove_psy
+	effectedstats = list(STATKEY_FOR = 1)
+
+/atom/movable/screen/alert/status_effect/buff/grove_psy
+	name = "Echo of the Grove"
+	desc = "You feel like LAUGHING..."
+	icon_state = "z_buff"
+
+/datum/status_effect/buff/shrub_d
+	id = "shrub"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/shrub
+	effectedstats = list(STATKEY_STR = 1)
+
+/atom/movable/screen/alert/status_effect/buff/shrub
+	name = "Embrace of the Wild"
+	desc = "I can feel the presence of the Treefather enstrengthen me."
+	icon_state = "guardsman"
+
+/datum/status_effect/buff/z_land
+	id = "z_land"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/z_land
+	effectedstats = list(STATKEY_PER = 1, STATKEY_SPD = 1)
+
+/atom/movable/screen/alert/status_effect/buff/z_land
+	name = "Rot-Walker"
+	desc = "The twisted expand of the Rot-Lands feel like second home to me.."
+	icon_state = "z_buff"
+
+/datum/status_effect/buff/noc_wood
+	id = "noc_wood"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/noc_wood
+	effectedstats = list(STATKEY_PER = 1)
+
+/atom/movable/screen/alert/status_effect/buff/noc_wood
+	name = "Guiding Light"
+	desc = "The Noc-light shines in through the tree-tops, granting me clear view of the woods..."
+	icon_state = "censerbuff"

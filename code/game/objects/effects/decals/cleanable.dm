@@ -99,3 +99,20 @@
 		return bloodiness
 	else
 		return 0
+
+/obj/effect/decal/cleanable/dirt
+	name = "dirt"
+	desc = "Someone should clean that up."
+	icon = 'icons/effects/dirt_misc.dmi'
+	icon_state = "dirt-flat-0"
+
+/obj/effect/decal/cleanable/dirt/Initialize(mapload)
+	. = ..()
+	icon_state = pick("dirt-flat-0","dirt-flat-1","dirt-flat-2","dirt-flat-3")
+	var/obj/structure/broken_flooring/broken_flooring = locate(/obj/structure/broken_flooring) in loc
+
+/obj/effect/decal/cleanable/dirt/dust
+	name = "dust"
+	desc = "A thin layer of dust coating the floor."
+	icon_state = "dust"
+

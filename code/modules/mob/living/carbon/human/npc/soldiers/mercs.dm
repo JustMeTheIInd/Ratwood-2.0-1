@@ -142,6 +142,7 @@
 		r_hand = /obj/item/rogueweapon/greatsword/grenz
 	if(prob(10))
 		r_hand = /obj/item/rogueweapon/stoneaxe/battle
+		l_hand = /obj/item/rogueweapon/shield/iron
 	if(prob(20))
 		r_hand = /obj/item/rogueweapon/halberd
 

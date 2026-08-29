@@ -3233,5 +3233,8 @@
 #include "modular_rmh\code\modules\clothing\vladegeg\wintercoat.dm"
 #include "modular_rmh\code\modules\clothing\vladegeg\armor\druid.dm"
 #include "modular_rmh\code\modules\mob\dead\body_markings\body_markings.dm"
+#include "modular_teuval\code\game\objects\effects\decal.dm"
+#include "modular_teuval\code\game\objects\structures\walldeco.dm"
+#include "modular_teuval\code\game\turfs\open\floor.dm"
 #include "modular_twilight_axis\code\game\objects\items\scabbard.dm"
 // END_INCLUDE

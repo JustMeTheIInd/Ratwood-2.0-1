@@ -189,7 +189,6 @@
 	H.STAWIL = 10
 	H.STAINT = 1
 	name = "Skeleton Soldier"
-	cloak = /obj/item/clothing/cloak/stabard/surcoat/guard // Ooo Spooky Old Dead MAA
 	head = /obj/item/clothing/head/roguetown/helmet/heavy/ancient/decrepit
 	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/ancient/decrepit
 	shirt = /obj/item/clothing/suit/roguetown/armor/chainmail/ancient/decrepit
@@ -459,7 +458,6 @@
 	shoes = /obj/item/clothing/shoes/roguetown/boots/leather
 	if(prob(50))
 		head = /obj/item/clothing/head/roguetown/helmet/kettle/iron
-	cloak = /obj/item/clothing/cloak/stabard/stabard/guard
 	armor = /obj/item/clothing/suit/roguetown/armor/plate/half/iron
 	shirt = /obj/item/clothing/suit/roguetown/armor/gambeson/light
 	if(prob(25))

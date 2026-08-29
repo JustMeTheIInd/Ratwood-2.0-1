@@ -411,16 +411,16 @@ GLOBAL_LIST_EMPTY(teleportlocs)
 /area/proc/has_detail_text()
 	if(detail_text)
 		return TRUE
-	if(islist(detail_texts))
-		for(var/text in detail_texts)
+	if(islist(detail_text))
+		for(var/text in detail_text)
 			if(text)
 				return TRUE
 	return FALSE
 
 /area/proc/get_detail_text()
-	if(islist(detail_texts))
+	if(islist(detail_text))
 		var/list/available = list()
-		for(var/text in detail_texts)
+		for(var/text in detail_text)
 			if(text)
 				available += text
 		if(length(available))

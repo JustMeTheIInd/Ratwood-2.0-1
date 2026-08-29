@@ -203,24 +203,24 @@
 /mob/living/carbon/human/species/npc/deadite/pissant
 	
 /datum/outfit/job/roguetown/deadite/pissant/pre_equip(mob/living/carbon/human/H)
-	legs = /obj/item/clothing/under/roguetown/tights/black
+	pants = /obj/item/clothing/under/roguetown/tights/black
 	if(prob(50))
 		head = /obj/item/clothing/head/roguetown/armingcap
 	else 
 		head = null
 	if(prob(30))
-		chest = /obj/item/clothing/suit/roguetown/shirt/tunic/black
+		shirt = /obj/item/clothing/suit/roguetown/shirt/tunic/black
 	if(prob(30))
-		chest = /obj/item/clothing/suit/roguetown/shirt/undershirt/brown
+		shirt = /obj/item/clothing/suit/roguetown/shirt/undershirt/brown
 	else 
-		chest = /obj/item/clothing/suit/roguetown/shirt/rags
+		shirt = /obj/item/clothing/suit/roguetown/shirt/rags
 	if(prob(10))
 		shoes = /obj/item/clothing/shoes/roguetown/shortboots
 	else
 		shoes = null
 	if(prob(1))
 		belt = /obj/item/storage/belt/rogue/leather/rope/dark
-		belt_r = /obj/item/storage/belt/rogue/pouch/coins/poor
+		beltr = /obj/item/storage/belt/rogue/pouch/coins/poor
 	H.STASTR = 7
 	H.STACON = 7
 	H.STAWIL = 7

@@ -32,6 +32,10 @@
 	},
 /turf/open/floor/rogue/wood/herringbone,
 /area/rogue)
+"aaM" = (
+/obj/structure/mineral_door/wood/towner/miner,
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "abi" = (
 /obj/effect/wisp/green{
 	pixel_y = 28
@@ -1639,6 +1643,11 @@
 /obj/item/clothing/suit/roguetown/armor/plate/half,
 /turf/open/floor/rogue/concrete,
 /area/rogue)
+"blB" = (
+/turf/open/floor/rogue/dirt/road{
+	color = "#B2B2B2"
+	},
+/area/rogue)
 "blN" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -2369,6 +2378,22 @@
 	dir = 8
 	},
 /turf/open/floor/carpet/inn,
+/area/rogue)
+"bPl" = (
+/obj/structure/closet/crate/roguecloset/inn,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/reagent_containers/glass/bowl,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/cooking/platter,
+/obj/item/kitchen/fork,
+/obj/item/kitchen/fork,
+/obj/item/kitchen/fork,
+/obj/item/kitchen/spoon,
+/obj/item/kitchen/spoon,
+/obj/item/kitchen/spoon,
+/turf/open/floor/rogue/ruinedwood,
 /area/rogue)
 "bPP" = (
 /obj/structure/mineral_door/wood,
@@ -5879,6 +5904,13 @@
 	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue)
+"eEE" = (
+/obj/structure/table/wood/long_table,
+/obj/item/millstone{
+	pixel_y = 10
+	},
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue)
 "eET" = (
 /obj/structure/fluff/railing/border{
 	dir = 1;
@@ -7535,6 +7567,17 @@
 	},
 /turf/open/floor/rogue/woodturned,
 /area/rogue)
+"fVh" = (
+/obj/structure/fluff/railing/border,
+/obj/machinery/light/rogue/oven/south,
+/obj/machinery/light/rogue/hearth{
+	pixel_y = 8
+	},
+/obj/item/reagent_containers/glass/bucket/pot/decrepit{
+	pixel_y = 7
+	},
+/turf/open/floor/rogue/cobblerock,
+/area/rogue)
 "fWg" = (
 /obj/structure/table/wood/poor,
 /obj/item/reagent_containers/glass/cup{
@@ -7825,6 +7868,13 @@
 	lockid = "puritan"
 	},
 /turf/open/floor/rogue/concrete,
+/area/rogue)
+"gfT" = (
+/obj/effect/decal/cobbleedge{
+	icon_state = "borderfall";
+	pixel_y = -8
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "ggf" = (
 /obj/item/clothing/under/roguetown/splintlegs/iron,
@@ -9602,6 +9652,14 @@
 	dir = 1;
 	pixel_y = 11
 	},
+/turf/open/floor/rogue/ruinedwood,
+/area/rogue)
+"huz" = (
+/obj/structure/closet/crate/chest/crate,
+/obj/item/rogueweapon/pick,
+/obj/item/flashlight/flare/torch/lantern,
+/obj/item/rogueweapon/pick,
+/obj/item/flashlight/flare/torch/lantern,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue)
 "huZ" = (
@@ -12671,6 +12729,14 @@
 /obj/item/clothing/neck/roguetown/psicross/astrata,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue)
+"jJg" = (
+/obj/structure/closet/crate/chest,
+/obj/item/reagent_containers/food/snacks/butter,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/food,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/food,
+/obj/effect/spawner/lootdrop/roguetown/dungeon/food,
+/turf/open/floor/carpet/royalblack,
+/area/rogue)
 "jJx" = (
 /obj/structure/rack/rogue,
 /obj/item/reagent_containers/glass/cup/wooden,
@@ -12850,6 +12916,14 @@
 	pixel_y = 32
 	},
 /turf/open/floor/rogue/blocks,
+/area/rogue)
+"jRG" = (
+/obj/effect/decal/cobbleedge{
+	dir = 8;
+	icon_state = "borderfall";
+	pixel_x = -8
+	},
+/turf/open/floor/rogue/dirt,
 /area/rogue)
 "jRK" = (
 /obj/structure/fluff/statue/knight{
@@ -13535,6 +13609,18 @@
 	dir = 10
 	},
 /turf/open/floor/rogue/tile/brick,
+/area/rogue)
+"kyT" = (
+/obj/structure/handcart{
+	dir = 4
+	},
+/obj/item/rogueweapon/pick,
+/obj/effect/decal/cobbleedge{
+	dir = 8;
+	icon_state = "borderfall";
+	pixel_x = -8
+	},
+/turf/open/floor/rogue/grass,
 /area/rogue)
 "kzg" = (
 /obj/structure/bookcase/random/religion{
@@ -18444,6 +18530,13 @@
 "omB" = (
 /obj/structure/flora/roguegrass/thorn_bush,
 /turf/open/floor/rogue/grassred,
+/area/rogue)
+"omF" = (
+/obj/effect/decal/cobbleedge{
+	icon_state = "borderfall";
+	pixel_y = -8
+	},
+/turf/open/floor/rogue/cobblerock,
 /area/rogue)
 "omG" = (
 /obj/structure/chair/wood{
@@ -24825,6 +24918,12 @@
 /mob/living/carbon/human/species/npc/deadite,
 /turf/open/floor/rogue/dirt/road,
 /area/rogue)
+"tBp" = (
+/obj/structure/stairs{
+	dir = 8
+	},
+/turf/open/floor/rogue/dirt/road,
+/area/rogue)
 "tBC" = (
 /obj/structure/fluff/railing/wood{
 	dir = 4;
@@ -28204,6 +28303,13 @@
 	name = "reinforced window"
 	},
 /turf/open/floor/rogue/concrete,
+/area/rogue)
+"wrj" = (
+/obj/structure/table/wood/long_table/right,
+/obj/item/rogueweapon/huntingknife/chefknife{
+	pixel_y = 6
+	},
+/turf/open/floor/rogue/ruinedwood,
 /area/rogue)
 "wrt" = (
 /obj/structure/fluff/railing/wood{
@@ -75673,18 +75779,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+oug
+oug
+qGX
+fhB
+qGX
+qGn
+oug
+oug
+ntZ
+ntZ
+ntZ
+ntZ
 rce
 rce
 rce
@@ -76105,18 +76211,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+oug
+ntZ
+agB
+qGX
+qGn
+oug
+oug
+oug
+oug
+ntZ
+ntZ
+oug
 rce
 rce
 rce
@@ -76537,18 +76643,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+agB
+fhB
+fhB
+qGn
+oug
+oug
+oug
+oug
+oug
+ntZ
+oug
+oug
 rce
 rce
 fYe
@@ -76969,18 +77075,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+fhB
+agB
+qGn
+oug
+oug
+oug
+oug
+oug
+oug
+ntZ
+oug
+oug
 rce
 rce
 fYe
@@ -77401,18 +77507,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+qGX
+qGn
+obf
+obf
+obf
+obf
+obf
+obf
+obf
+oug
+oug
+oug
 rce
 rce
 fYe
@@ -77833,18 +77939,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+qGn
+gfT
+iWy
+lrW
+iWy
+xji
+iWy
+lrW
+iWy
+ksf
+oug
+oug
 rce
 rce
 fYe
@@ -78265,18 +78371,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+oug
+gfT
+uEK
+fVh
+jJg
+srM
+aGy
+bPl
+xji
+ksf
+oug
+oug
 rce
 rce
 fYe
@@ -78697,18 +78803,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+lnS
+gfT
+xji
+eEE
+jcN
+qos
+jcN
+jak
+vjB
+ksf
+oug
+oug
 rce
 rce
 fYe
@@ -79129,18 +79235,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+fhB
+gfT
+vjB
+wrj
+jcN
+jcN
+jcN
+huz
+xji
+ksf
+fuc
+qGn
 rce
 rce
 fYe
@@ -79561,18 +79667,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+agB
+omF
+iWy
+xji
+lrW
+aaM
+lrW
+xji
+iWy
+ksf
+qGn
+qGX
 rce
 rce
 fYe
@@ -79993,18 +80099,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+agB
+fhB
+jRG
+aLO
+anF
+tBp
+kyT
+anF
+aLO
+qGX
+fhB
+agB
 rce
 rce
 fYe
@@ -80425,18 +80531,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+fhB
+agB
+qGX
+qGn
+qGn
+agB
+qGn
+qGn
+agB
+qGn
+fhB
+qGX
 rce
 rce
 fYe
@@ -80857,18 +80963,18 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
-rce
+oug
+agB
+agB
+fhB
+agB
+blB
+agB
+agB
+fhB
+agB
+agB
+qGn
 rce
 rce
 fYe

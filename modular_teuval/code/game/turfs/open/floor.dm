@@ -1,7 +1,7 @@
-/turf/open/floor/carpet/inn_colored/purple
+/turf/open/floor/carpet/inn_colored
 	name = "carpet"
 	desc = "Plush fabric softens your step. Did you remember to wipe your shoes?"
-	icon = 'modular_teuval/icons/turf/floors/inn.dmi'
+	icon = 'modular_teuval/icons/turf/inn.dmi'
 	icon_state = "inn_purple"
 	broken_states = list("damaged")
 	smooth = SMOOTH_TRUE

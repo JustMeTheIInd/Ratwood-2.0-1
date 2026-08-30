@@ -354,6 +354,10 @@
 /obj/structure/chair/wood/rogue,
 /turf/open/floor/carpet/royalblack,
 /area/rogue)
+"aqn" = (
+/obj/item/rogueweapon/stoneaxe/woodcut,
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "aqu" = (
 /obj/structure/fluff/railing/wood,
 /obj/structure/fluff/railing/wood{
@@ -6301,6 +6305,10 @@
 	},
 /turf/open/floor/rogue/hexstone,
 /area/rogue)
+"eXf" = (
+/obj/item/rogueweapon/pick,
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "eXL" = (
 /obj/structure/chair/wood/rogue{
 	dir = 1
@@ -8726,6 +8734,10 @@
 /obj/structure/fluff/railing/border/east,
 /turf/open/floor/rogue/tile/bfloorz,
 /area/rogue)
+"gIi" = (
+/obj/item/clothing/suit/roguetown/armor/plate/full/fluted,
+/turf/closed,
+/area/rogue)
 "gIk" = (
 /obj/structure/closet/crate/chest/crate,
 /obj/machinery/light/rogue/candle/off/r,
@@ -9440,6 +9452,10 @@
 	dir = 1
 	},
 /turf/open/floor/rogue/grass,
+/area/rogue)
+"hlf" = (
+/obj/item/rogueweapon/stoneaxe/handaxe,
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "hlr" = (
 /obj/structure/curtain/directional/green{
@@ -11756,6 +11772,10 @@
 /area/rogue)
 "iVj" = (
 /turf/open/floor/rogue/naturalstone,
+/area/rogue)
+"iVo" = (
+/obj/item/rogueweapon/pick/militia,
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "iWj" = (
 /obj/machinery/light/rogue/firebowl/standing/blue{
@@ -15856,6 +15876,10 @@
 	pixel_y = -32
 	},
 /turf/open/floor/carpet/royalblack,
+/area/rogue)
+"mmH" = (
+/obj/item/clothing/head/roguetown/helmet/heavy/knight/gilded,
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "mnJ" = (
 /obj/structure/fluff/walldeco/church/line{
@@ -19995,6 +20019,10 @@
 /obj/structure/bookcase/random/reference,
 /turf/open/floor/rogue/tile/bfloorz,
 /area/rogue)
+"pDI" = (
+/obj/item/rogueweapon/flail/peasantwarflail,
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "pDM" = (
 /obj/structure/rack/rogue/shelf/biggest,
 /obj/item/clothing/suit/roguetown/armor/leather/cuirass,
@@ -20668,6 +20696,10 @@
 "qfW" = (
 /obj/structure/stairs,
 /turf/open/floor/rogue/ruinedwood,
+/area/rogue)
+"qfZ" = (
+/obj/item/clothing/suit/roguetown/armor/plate/full/fluted/ornate/ordinator,
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "qgh" = (
 /obj/structure/rack/rogue/shelf/biggest,
@@ -26611,6 +26643,11 @@
 	},
 /turf/open/floor/rogue/churchmarble,
 /area/rogue)
+"vaV" = (
+/obj/item/rogueweapon/greataxe/militia,
+/obj/item/rogueweapon/spear/billhook,
+/turf/open/floor/rogue/concrete,
+/area/rogue)
 "vaZ" = (
 /obj/structure/fluff/railing/border{
 	dir = 6
@@ -28765,6 +28802,10 @@
 /area/rogue)
 "wGD" = (
 /turf/open/floor/rogue/tile/brownbrick,
+/area/rogue)
+"wGV" = (
+/obj/item/clothing/neck/roguetown/coif,
+/turf/open/floor/rogue/concrete,
 /area/rogue)
 "wGW" = (
 /obj/structure/stairs/stone{
@@ -77124,13 +77165,13 @@ fYe
 fYe
 fYe
 rce
+wGV
 lFa
 lFa
+lmC
 lFa
 lFa
-lFa
-lFa
-lFa
+kJO
 lFa
 lFa
 lFa
@@ -77993,8 +78034,8 @@ pwq
 obJ
 qbi
 kfr
-lFa
-lFa
+vaV
+pDI
 lFa
 kTX
 lFa
@@ -78426,7 +78467,7 @@ aYD
 mPd
 tYk
 jgF
-lFa
+eXf
 lFa
 lFa
 lFa
@@ -78858,12 +78899,12 @@ nRL
 xXd
 lmC
 oXU
-lFa
+iVo
 hIG
 tUR
 ncC
 lFa
-lFa
+hlf
 lFa
 lFa
 lFa
@@ -79283,8 +79324,8 @@ fYe
 fYe
 fYe
 fYe
-rce
-lFa
+gIi
+mmH
 gJG
 irw
 kDb
@@ -79294,7 +79335,7 @@ lFa
 bVC
 vhz
 hme
-lFa
+aqn
 lFa
 lFa
 lFa
@@ -79716,7 +79757,7 @@ fYe
 fYe
 fYe
 rce
-lFa
+qfZ
 eRu
 lRI
 sdy

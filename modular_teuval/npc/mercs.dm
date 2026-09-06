@@ -7,7 +7,13 @@
 	dodgetime = 30
 	flee_in_pain = TRUE
 	d_intent = INTENT_PARRY
-	possible_rmb_intents = list()
+	possible_rmb_intents = list(
+		/datum/rmb_intent/feint,\
+		/datum/rmb_intent/aimed,\
+		/datum/rmb_intent/strong,\
+		/datum/rmb_intent/riposte,\
+		/datum/rmb_intent/weak
+	)
 	var/is_silent = FALSE /// Determines whether or not we will scream our funny lines at people.
 
 /mob/living/carbon/human/species/human/northern/merc/retaliate(mob/living/L)
@@ -111,7 +117,7 @@
 	H.STACON = 16
 	H.STAWIL = 16
 	H.STAPER = 14
-	H.STAINT = 14 // they are meant to hit HARD.
+	H.STAINT = 14 // This statpack is better than the 'deranged knight' miniboss. This is because the STRONGEST ASCENDANT FOOL HAS NOT EVEN A CHANCE AGAINST THE WEAKEST SON OF GRENZELHOFT!!!
 	H.eye_color = "27becc"
 	H.hair_color = "61310f"
 	H.facial_hair_color = H.hair_color

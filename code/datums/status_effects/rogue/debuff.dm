@@ -1216,6 +1216,14 @@
 	name = "Influence of the Dame"
 	desc = "HER Goading Laughter weakens YOUR lyving form..."
 
+/atom/movable/screen/alert/status_effect/debuff/psy_land
+	name = "Foreign Dominion"
+	desc = "I feel all of my abilities sapped away by a force strange and powerful..."
+
+/datum/status_effect/debuff/psy_land
+	alert_type = /atom/movable/screen/alert/status_effect/debuff/psy_land
+	effectedstats = list(STATKEY_WIL = -10, STATKEY_CON = -10, STATKEY_INT = -10, STATKEY_PER = -10, STATKEY_SPD = -10, STATKEY_FOR = -10)
+
 /datum/status_effect/debuff/malodorous_stink
 	id = "malodorous_stink"
 	duration = 999 MINUTES

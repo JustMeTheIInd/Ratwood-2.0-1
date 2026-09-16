@@ -1,4 +1,4 @@
-
+d
 /obj/item
 //	var/smeltresult defined on obj within artificer/contraptions
 	var/smelt_bar_num = 1 //variable for tracking how many bars things smelt back into for multi-bar items

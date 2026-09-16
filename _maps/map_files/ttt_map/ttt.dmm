@@ -2020,6 +2020,23 @@
 	},
 /turf/open/transparent/openspace,
 /area/rogue)
+"byr" = (
+/obj/structure/closet/crate/roguecloset,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/paper/scroll,
+/obj/item/natural/feather,
+/turf/open/floor/rogue/wood,
+/area/rogue)
 "byI" = (
 /obj/structure/bed/rogue/inn/double,
 /obj/item/bedsheet/rogue/fabric_double,
@@ -2444,6 +2461,9 @@
 	pixel_y = 32
 	},
 /turf/open/transparent/openspace,
+/area/rogue)
+"bNv" = (
+/turf/open/floor/carpet/inn_colored/blue2,
 /area/rogue)
 "bNJ" = (
 /obj/structure/fluff/railing/wood/east{
@@ -5159,6 +5179,18 @@
 	pixel_y = 7
 	},
 /turf/open/floor/rogue/tile,
+/area/rogue)
+"dRy" = (
+/obj/structure/table/wood/long_table/right,
+/obj/item/reagent_containers/glass/bottle/rogue/wine{
+	pixel_x = 5;
+	pixel_y = 21
+	},
+/obj/item/reagent_containers/glass/cup{
+	pixel_x = -4;
+	pixel_y = 5
+	},
+/turf/open/floor/rogue/wood,
 /area/rogue)
 "dRC" = (
 /obj/machinery/light/roguestreet/orange/walllamp{
@@ -8820,6 +8852,10 @@
 /obj/item/cooking/platter,
 /obj/item/cooking/platter,
 /turf/open/floor/rogue/cobble,
+/area/rogue)
+"gvV" = (
+/obj/structure/closet/crate/roguecloset/inn,
+/turf/open/floor/carpet/red,
 /area/rogue)
 "gwf" = (
 /obj/structure/bed/rogue/inn/wool,
@@ -13679,6 +13715,12 @@
 /obj/item/clothing/suit/roguetown/armor/gambeson/heavy/grenzelhoft,
 /turf/open/floor/rogue/concrete,
 /area/rogue)
+"jZK" = (
+/obj/structure/chair/wood{
+	dir = 1
+	},
+/turf/open/floor/carpet/inn_colored/blue2,
+/area/rogue)
 "jZM" = (
 /obj/structure/fluff/railing/border{
 	dir = 4
@@ -14735,6 +14777,11 @@
 /obj/structure/flora/ausbushes/brflowers,
 /turf/open/floor/rogue/grass,
 /area/rogue)
+"kSb" = (
+/turf/open/floor/rogue/rooftop{
+	dir = 1
+	},
+/area/rogue)
 "kSe" = (
 /obj/structure/bed/rogue/inn{
 	dir = 1
@@ -15527,6 +15574,11 @@
 	pixel_x = 0
 	},
 /turf/open/floor/carpet/royalblack,
+/area/rogue)
+"lxf" = (
+/turf/closed/wall/mineral/rogue/wooddark/end{
+	dir = 4
+	},
 /area/rogue)
 "lxj" = (
 /obj/item/clothing/head/roguetown/helmet/heavy/knight/iron,
@@ -16871,6 +16923,10 @@
 	pixel_y = 8;
 	pixel_x = -10
 	},
+/turf/open/floor/rogue/wood,
+/area/rogue)
+"mwn" = (
+/obj/structure/closet/crate/chest,
 /turf/open/floor/rogue/wood,
 /area/rogue)
 "mwr" = (
@@ -21040,6 +21096,10 @@
 "pHB" = (
 /obj/structure/fluff/walldeco/chains,
 /turf/open/floor/rogue/blocks/newstone,
+/area/rogue)
+"pHO" = (
+/obj/structure/closet/crate/drawer/drawer1,
+/turf/open/floor/carpet/red,
 /area/rogue)
 "pIp" = (
 /obj/structure/fluff/railing/border{
@@ -30047,6 +30107,11 @@
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue)
+"wvO" = (
+/obj/structure/bed/rogue/inn/wooldouble,
+/obj/item/bedsheet/rogue/double_pelt,
+/turf/open/floor/carpet/red,
+/area/rogue)
 "wvP" = (
 /obj/structure/table/wood/poker,
 /obj/item/candle/gold/lit,
@@ -31144,6 +31209,10 @@
 	dir = 8
 	},
 /turf/open/floor/rogue/concrete,
+/area/rogue)
+"xgG" = (
+/obj/structure/table/wood/long_table/mid/alt,
+/turf/open/floor/rogue/wood,
 /area/rogue)
 "xgT" = (
 /obj/item/clothing/gloves/roguetown/plate,
@@ -32592,6 +32661,13 @@
 /obj/item/reagent_containers/food/snacks/egg,
 /obj/item/reagent_containers/powder/salt,
 /turf/open/floor/rogue/tile,
+/area/rogue)
+"yfs" = (
+/obj/structure/table/wood/long_table,
+/obj/machinery/light/rogue/candle/floorcandle/alt{
+	pixel_y = -3
+	},
+/turf/open/floor/rogue/wood,
 /area/rogue)
 "yfU" = (
 /obj/structure/closet/crate/drawer,
@@ -77427,11 +77503,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+kSb
+iWy
+mIx
+xji
+mIx
 rce
 wJC
 bIm
@@ -77859,11 +77935,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+iWy
+lxf
+tIJ
+tIJ
+tIJ
 rce
 wJC
 uEK
@@ -78291,11 +78367,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+xji
+mwn
+tIJ
+tIJ
+tIJ
 rce
 wJC
 dKT
@@ -78723,11 +78799,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+mIx
+yfs
+bNv
+bNv
+bNv
 rce
 wJC
 uEK
@@ -79155,11 +79231,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+xji
+xgG
+jZK
+bNv
+bNv
 rce
 wJC
 nrh
@@ -79587,11 +79663,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+mIx
+dRy
+bNv
+bNv
+bNv
 rce
 wJC
 uEK
@@ -80019,11 +80095,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+xji
+byr
+tIJ
+tIJ
+tIJ
 rce
 wJC
 dKT
@@ -80451,11 +80527,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+iWy
+tMb
+gvV
+wvO
+pHO
 rce
 wJC
 uEK
@@ -80883,11 +80959,11 @@ rce
 rce
 rce
 rce
-rce
-rce
-rce
-rce
-rce
+wJC
+iWy
+mIx
+xji
+mIx
 rce
 wJC
 nrh
